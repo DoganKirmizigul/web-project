@@ -99,7 +99,7 @@ header .navbar ul {
   padding: 1rem;
 }
 header .navbar ul li {
-  margin: 0 7rem;
+  margin: 0 1.5rem;
 }
 header .navbar ul li a {
   font-size: 3rem;
@@ -690,158 +690,105 @@ ul li ul li a {
   color: var(--midnight);
 }
 /*footer*/
-@media (max-width: 768px) {
-  html {
-    font-size: 55%;
-  }
-}
 
-.home .content {
-  text-align: center;
-}
 
-.home .content h1 {
-  font-size: 4rem;
-}
+/*Media queries*/
+@media (max-width:768px){
 
-.about .content h1 {
-  font-size: 4rem;
-}
-
-@media (max-width: 500px) {
-  html {
-    font-size: 50%;
-  }
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1rem;
-  }
-  header #menu {
-    display: block;
-  }
-  header .navbar {
-    position: fixed;
-    top: 6.2rem;
-    right: -120;
-    height: 100%;
-    width: 100%;
-    border-top: 0.2rem solid rgba(0, 0, 0, 3);
+  html{
+      font-size: 55%;
   }
 
-  header .navbar ul {
-    height: 100%;
-    width: 100%;
-    flex-flow: column;
-    background: #fff;
-    padding-bottom: 15rem;
+  .home .content{
+      text-align: center;
   }
 
-  header .navbar ul li {
-    text-align: center;
-    width: 100%;
-    margin: 1rem 0;
+  .home .content h1{
+      font-size: 4rem;
   }
 
-  header .navbar ul li a {
-    font-size: 4rem;
-    color: black;
-    display: block;
-  }
-  header .navbar ul li a:hover {
-    color: var(--orange);
+  .about .content h1{
+      font-size: 4rem;
   }
 
-  .fa-times {
-    transform: rotate(180);
-  }
-
-  header .navbar.nav-toggle {
-    right: 0;
-  }
-
-  section {
-    padding-top: 5rem;
-  }
 }
 
 @media (max-width:500px){
 
-    html{
-        font-size: 50%;
-    }
+  html{
+      font-size: 50%;
+  }
 
-    header{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding:0 1rem;
-    }
+  header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:0 1rem;
+  }
 
-    header #menu{
-        display: block;
-    }
+  header #menu{
+      display: block;
+  }
 
-    header .navbar{
-        position: fixed;
-        top:6.2rem; right:-120%;
-        height:100%;
-        width:100%;
-        border-top: .2rem solid rgba(0,0,0,.3);
-    }
+  header .navbar{
+      position: fixed;
+      top:6.2rem; right:-120%;
+      height:100%;
+      width:100%;
+      border-top: .2rem solid rgba(0,0,0,.3);
+  }
 
-    header .navbar ul{
-        height:100%;
-        width:100%;
-        flex-flow: column;
-        background:#fff;
-        padding-bottom: 15rem;
-    }
+  header .navbar ul{
+      height:100%;
+      width:100%;
+      flex-flow: column;
+      background:#fff;
+      padding-bottom: 15rem;
+  }
 
-    header .navbar ul li{
-        text-align: center;
-        width:100%;
-        margin:1rem 0;
-    }
+  header .navbar ul li{
+      text-align: center;
+      width:100%;
+      margin:1rem 0;
+  }
 
-    header .navbar ul li a{
-        font-size: 4rem;
-        color:#333;
-        display: block;
-    }
+  header .navbar ul li a{
+      font-size: 4rem;
+      color:#333;
+      display: block;
+  }
 
-    header .navbar ul li a:hover{
-        color:var(--orange);
-    }
+  header .navbar ul li a:hover{
+      color:var(--orange);
+  }
 
-    .fa-times{
-        transform: rotate(180deg);
-    }
+  .fa-times{
+      transform: rotate(180deg);
+  }
 
-    header .navbar.nav-toggle{
-        right:0;
-    }
+  header .navbar.nav-toggle{
+      right:0;
+  }
 
-    section{
-        padding-top: 5rem;
-    }
+  section{
+      padding-top: 5rem;
+  }
 
-    .footer .box-container .box:last-child{
-        text-align: center;
-    }
+  .footer .box-container .box:last-child{
+      text-align: center;
+  }
 
-    .footer .box-container .box:last-child p{
-        font-size: 1.7rem;
-    }
+  .footer .box-container .box:last-child p{
+      font-size: 1.7rem;
+  }
 
-    .footer .box-container .box:last-child form{
-        flex-flow: column;
-    }
+  .footer .box-container .box:last-child form{
+      flex-flow: column;
+  }
 
-    .footer .box-container .box:last-child form .btn{
-        margin-top: 1rem;
-        width:100%;
-    }
+  .footer .box-container .box:last-child form .btn{
+      margin-top: 1rem;
+      width:100%;
+  }
 
 }
