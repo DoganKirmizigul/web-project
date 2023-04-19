@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devices</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="heading">Devices</h1>
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="home.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="devices.html">devices</a></li>
+          <li><a href="room.html">rooms</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Control buttons -->
+    <section class="devicess">
+      <div class="containerr">
+        <div
+          id="livingroom"
+          class="section"
+          onclick="location.href='#liv';"
+          style="cursor: pointer"
+        >
+          <div class="content">
+            <h1>Living Room</h1>
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div
+          id="playroom"
+          class="section"
+          onclick="location.href='#play';"
+          style="cursor: pointer"
+        >
+          <div class="content">
+            <h1>Playroom</h1>
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div
+          id="balcony"
+          class="section"
+          onclick="location.href='#bal';"
+          style="cursor: pointer"
+        >
+          <div class="content">
+            <h1>Balcony</h1>
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div
+          id="studio"
+          class="section"
+          onclick="location.href='#stu';"
+          style="cursor: pointer"
+        >
+          <div class="content">
+            <h1>Studio</h1>
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div
+          id="kitchen"
+          class="section"
+          onclick="location.href='#kit';"
+          style="cursor: pointer"
+        >
+          <div class="content">
+            <h1>Kitchen</h1>
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div
+          id="bedroom"
+          class="section"
+          onclick="location.href='#bed';"
+          style="cursor: pointer"
+        >
+          <div class="content">
+            <h1>Bedroom</h1>
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div
+          id="bathroom"
+          class="section"
+          onclick="location.href='#bath';"
+          style="cursor: pointer"
+        >
+          <div class="content">
+            <h1>bathroom</h1>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </section>
+    <section class="rooms">
+      <section class="space" id="liv"></section>
+      <div class="livingroom" id="">
+        <h1 class="title" id="titleLiv">Living Room</h1>
+        <div class="room">
+          <div
+            class="filterDiv light play living bedroom kitchen studio bathroom balcony"
+            id="light1"
+          >
+            <h2 id="text3">Off</h2>
+            <a href="#titleLivs">
+              <img
+                src="images/lightoff.jpg"
+                alt=""
+                id="3"
+                onclick="toggleImage(3, 'text3', '#light1');"
+              />
+            </a>
+          </div>
+          <div class="filterDiv air living bedroom play studio" id="air1">
+            <h2 id="text1">Off</h2>
+            <a href="#123123">
+              <img
+                src="images/airoff.jpg"
+                alt=""
+                id="1"
+                onclick="toggleImage(1, 'text1', '#air1');"
+              />
+            </a>
+          </div>
+          <div class="filterDiv tv play living bedroom" id="tv1">
+            <h2 id="text2">Off</h2>
+            <a href="#321">
+              <img
+                src="images/tvoff.jpg"
+                alt=""
+                id="2"
+                onclick="toggleImage(2, 'text2', '#tv1');"
+              />
+            </a>
+          </div>
+          <div
+            class="filterDiv blind balcony bedroom playroom studio"
+            id="blind1"
+          >
+            <h2 id="text5">Off</h2>
+            <a href="#2342">
+              <img
+                src="images/blindoff.jpg"
+                alt=""
+                id="5"
+                onclick="toggleImage(5, 'text5', '#blind1');"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <section class="space" id="play"></section>
+      <div class="playroom">
+        <h1 class="title">Playroom</h1>
+        <div class="room">
+          <div class="filterDiv air living bedroom play studio" id="air2">
+            <h2 id="text6">Off</h2>
+            <a href="#12234234">
+              <img
+                src="images/airoff.jpg"
+                alt=""
+                id="6"
+                onclick="toggleImage(6, 'text6', '#air2');"
+              />
+            </a>
+          </div>
+          <div class="filterDiv tv play living bedroom" id="tv2">
+            <h2 id="text7">Off</h2>
+            <a href="#123">
+              <img
+                src="images/tvoff.jpg"
+                alt=""
+                id="7"
+                onclick="toggleImage(7, 'text7', '#tv2');"
+              />
+            </a>
+          </div>
+          <div
+            class="filterDiv light play living bedroom kitchen studio bathroom balcony"
+            id="light2"
+          >
+            <h2 id="text8">Off</h2>
+            <a href="#123123">
+              <img
+                src="images/lightoff.jpg"
+                alt=""
+                id="8"
+                onclick="toggleImage(8, 'text8', '#light2');"
+              />
+            </a>
+          </div>
+          <div
+            class="filterDiv blind balcony bedroom playroom studio"
+            id="blind2"
+          >
+            <h2 id="text9">Off</h2>
+            <a href="#12313">
+              <img
+                src="images/blindoff.jpg"
+                alt=""
+                id="9"
+                onclick="toggleImage(9, 'text9', '#blind2');"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <section class="space" id="bal"></section>
+      <div class="balcony">
+        <h1 class="title">Balcony</h1>
+        <div class="room">
+          <div
+            class="filterDiv light play living bedroom kitchen studio bathroom balcony"
+            id="light3"
+          >
+            <h2 id="text10">Off</h2>
+            <a href="#232">
+              <img
+                src="images/lightoff.jpg"
+                alt=""
+                id="10"
+                onclick="toggleImage(10, 'text10', '#light3');"
+              />
+            </a>
+          </div>
+          <div
+            class="filterDiv blind balcony bedroom playroom studio"
+            id="blind3"
+          >
+            <h2 id="text11">Off</h2>
+            <a href="#43">
+              <img
+                src="images/blindoff.jpg"
+                alt=""
+                id="11"
+                onclick="toggleImage(11, 'text11', '#blind3');"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <section class="space" id="stu"></section>
+      <div class="studio">
+        <h1 class="title">Studio</h1>
+        <div class="room">
+          <div
+            class="filterDiv light play living bedroom kitchen studio bathroom balcony"
+            id="light4"
+          >
+            <h2 id="text12">Off</h2>
+            <a href="#2342">
+              <img
+                src="images/lightoff.jpg"
+                alt=""
+                id="12"
+                onclick="toggleImage(12, 'text12', '#light4');"
+              />
+            </a>
+          </div>
+
+          <div class="filterDiv air living bedroom play studio" id="air3">
+            <h2 id="text13">Off</h2>
+            <a href="#234324">
+              <img
+                src="images/airoff.jpg"
+                alt=""
+                id="13"
+                onclick="toggleImage(13, 'text13', '#air3');"
+              />
+            </a>
+          </div>
+          <div
+            class="filterDiv blind balcony bedroom playroom studio"
+            id="blind4"
+          >
+            <h2 id="text14">Off</h2>
+            <a href="#234324">
+              <img
+                src="images/blindoff.jpg"
+                alt=""
+                id="14"
+                onclick="toggleImage(14, 'text14', '#blind4');"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <section class="space" id="kit"></section>
+      <div class="kitchen">
+        <h1 class="title">Kitchen</h1>
+        <div class="room">
+          <div
+            class="filterDiv light play living bedroom kitchen studio bathroom balcony"
+            id="light5"
+          >
+            <h2 id="text3">Off</h2>
+            <a href="#23423">
+              <img
+                src="images/lightoff.jpg"
+                alt=""
+                id="20"
+                onclick="toggleImage(20, 'text3', '#light5');"
+              />
+            </a>
+          </div>
+          <div class="filterDiv owen kitchen" id="owen">
+            <h2 id="text4">Off</h2>
+            <a href="#423424">
+              <img
+                src="images/owenoff.jpg"
+                alt=""
+                id="4"
+                onclick="toggleImage(4, 'text4', '#owen');"
+              />
+            </a>
+          </div>
+          <div
+            class="filterDiv blind balcony bedroom playroom studio"
+            id="blind5"
+          >
+            <h2 id="text5">Off</h2>
+            <a href="#2342">
+              <img
+                src="images/blindoff.jpg"
+                alt=""
+                id="21"
+                onclick="toggleImage(21, 'text5', '#blind5');"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <section class="space" id="bed"></section>
+      <div class="bedroom">
+        <h1 class="title">Bedroom</h1>
+        <div class="room">
+          <div class="filterDiv air living bedroom play studio" id="air4">
+            <h2 id="text15">Off</h2>
+            <a href="#234234">
+              <img
+                src="images/airoff.jpg"
+                alt=""
+                id="15"
+                onclick="toggleImage(15, 'text15', '#air4');"
+              />
+            </a>
+          </div>
+          <div class="filterDiv tv play living bedroom" id="tv3">
+            <h2 id="text16">Off</h2>
+            <a href="#234234">
+              <img
+                src="images/tvoff.jpg"
+                alt=""
+                id="16"
+                onclick="toggleImage(16, 'text16', '#tv3');"
+              />
+            </a>
+          </div>
+          <div
+            class="filterDiv light play living bedroom kitchen studio bathroom balcony"
+            id="light6"
+          >
+            <h2 id="text17">Off</h2>
+            <a href="#234324">
+              <img
+                src="images/lightoff.jpg"
+                alt=""
+                id="17"
+                onclick="toggleImage(17, 'text17', '#light6');"
+              />
+            </a>
+          </div>
+          <div
+            class="filterDiv blind balcony bedroom playroom studio"
+            id="blind6"
+          >
+            <h2 id="text18">Off</h2>
+            <a href="#234234">
+              <img
+                src="images/blindoff.jpg"
+                alt=""
+                id="18"
+                onclick="toggleImage(18, 'text18', '#blind6');"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <section class="space" id="bath"></section>
+      <div class="bathroom">
+        <h1 class="title">Bathroom</h1>
+        <div class="room">
+          <div
+            class="filterDiv light play living bedroom kitchen studio bathroom balcony"
+            id="light7"
+          >
+            <h2 id="text19">Off</h2>
+            <a href="#234234">
+              <img
+                src="images/lightoff.jpg"
+                alt=""
+                id="19"
+                onclick="toggleImage(19, 'text19', '#light7');"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
