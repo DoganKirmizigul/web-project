@@ -87,7 +87,7 @@ header #menu {
   color: #666;
   cursor: pointer;
   margin: 1rem;
-  display: block;
+  display: none;
 }
 
 header .navbar ul {
