@@ -792,3 +792,26 @@ ul li ul li a {
   }
 
 }
+
+@media(max-width:90rem){
+  .plan{
+    width: calc(45% - 2rem);
+  }
+
+}
+@media (max-width:52rem){
+  .plan{
+    width: calc(45% - 2rem);
+  }
+}
+@media (max-width:750px ){
+  .plan{
+    width: 70%;
+  }
+
+}
+@media (max-width:400px ){
+  .plan{
+    width: 90%;
+  }
+}
